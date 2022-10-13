@@ -1,0 +1,285 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.header {
+  display: flex;
+}
+
+.but-cont {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+}
+
+.but-black {
+  padding: 24px;
+  background-color: rgba(21, 21, 21, 1);
+  color: white;
+  font-family: "Big Shoulders Display";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 3.63636px;
+}
+
+.but-arrow {
+  padding: 24px;
+  background-color: rgba(213, 150, 108, 1);
+}
+
+.main {
+  background-color: rgba(21, 21, 21, 1);
+  padding: 50px 16px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+
+.main-gapper {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+.main-sec {
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: white;
+}
+
+.main-p {
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: white;
+  max-width: 656px;
+}
+
+.first {
+  text-decoration: none;
+}
+
+.main-h1 {
+  font-family: "Big Shoulders Display";
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: white;
+}
+
+.main-h2 {
+  font-family: "Big Shoulders Display";
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 32px;
+  text-transform: uppercase;
+  color: rgba(213, 150, 108, 1);
+}
+
+.footer {
+  background-color: rgba(213, 150, 108, 1);
+  display: flex;
+  flex-direction: column;
+  row-gap: 40px;
+  padding: 32px 50px;
+}
+
+.footer-p {
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 26px;
+  color: rgba(21, 21, 21, 1);
+  max-width: 430px;
+}
+
+.loc-img {
+  width: 100%;
+}
+
+.soc-cont {
+  display: flex;
+  column-gap: 20px;
+}
+
+.facebook {
+  fill: black;
+}
+
+.instagram {
+  fill: black;
+}
+
+.twitter {
+  fill: black;
+}
+
+.loc-tablet {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .main {
+    justify-content: center;
+    flex-direction: row;
+    column-gap: 68px;
+    padding: 80px 40px;
+  }
+}
+
+
+
+
+@media screen and (min-width: 768px) {
+  .footer {
+    flex-direction: row;
+    column-gap: 133px;
+    padding: 56px 40px;
+    align-items: center;
+  }
+
+  .footer-gapper {
+    display: flex;
+    column-gap: 65px;
+  }
+
+  .loc-tablet {
+    display: block;
+    width: 100%;
+  }
+
+  .loc-img {
+    display: none;
+  }
+  .but-cont {
+    margin-left: 40px;
+  }
+  .main-h1{
+  width: 223px;
+  }
+}
+
+
+@media screen and (min-width: 768px) {
+  .footer {
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.desk-pic{
+    display: none;
+
+  }
+
+
+@media screen and (min-width: 1440px) {
+  .main-h1 {
+    font-family: "Big Shoulders Display";
+    font-weight: 900;
+    font-size: 70px;
+    line-height: 70px;
+    text-transform: uppercase;
+  }
+  .main-h2 {
+    font-family: "Big Shoulders Display";
+    font-weight: 900;
+    font-size: 36px;
+    line-height: 36px;
+    text-transform: uppercase;
+  }
+
+  .main-sec {
+    font-family: "Outfit";
+
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .main-p {
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .main {
+    padding: 104px 165px 128px 165px;
+    column-gap: 220px;
+  }
+  .footer {
+    padding: 80px 165px;
+    column-gap: 280px;
+  }
+
+  .footer-gapper {
+    column-gap: 140px;
+  }
+
+  .footer-svg{
+  
+    display: none;
+  }
+
+  .foot-logo{
+    display: block;
+  }
+  .loc-tablet{
+    display: none;
+  }
+  .desk-pic{
+    display: block;
+    width: 100%;
+  }
+
+  .but-cont{
+    margin-left:156px;
+  }
+
+
+}
+
+
+
+@media screen and (max-width: 1440px) {
+    .foot-logo{
+        display: none;
+      }
+
+     
+}
+
+
+/* 
+.but-cont{
+  display: inline-flex;
+} */
+
+
+
+.but-cont:hover  .but-black{
+  background-color: #d5966c;;
+}
+
+
+.but-cont:hover .but-arrow{
+  background-color: black;
+}
+
+/* @media screen and (min-width: 940px) {
+    .main-p {
+        max-width: 540px;
+     
+    }
+  }
+
+
+  footer-p */

@@ -1,0 +1,556 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.body{
+    display: flex;
+    flex-direction: column;
+ 
+
+    row-gap: 120px;
+}
+
+.cont-for-marg {
+  margin: 0px 16px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+ 
+  row-gap: 32px;
+  margin: 0 auto;
+}
+
+.grandma-pic {
+  width: 100%;
+}
+
+.header-top {
+  font-family: "Big Shoulders Display", "cursive";
+  font-weight: 900;
+  font-size: 60px;
+  line-height: 55px;
+}
+
+.header-p {
+  font-family: "Outfit", sans-serif;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+}
+
+.but-cont {
+  display: flex;
+  cursor: pointer;
+}
+
+.second{
+    text-decoration: none;
+
+}
+
+
+
+.head-but {
+  font-family: "Big Shoulders Display", "cursive";
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 24px;
+  letter-spacing: 3.63636px;
+  width: 204px;
+  /* height: 72px; */
+  color: white;
+  background-color: #151515;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.head-arrow {
+  width: 56px;
+  height: 72px;
+  background-color: #d5966c;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.main {
+  margin: 0 16px;
+  display: flex;
+  flex-direction: column;
+align-items: center;
+row-gap: 30px;
+
+max-width: 1000px;
+}
+
+.image-main-1 {
+  width: 100%;
+}
+
+.image-main-2 {
+  width: 100%;
+}
+
+.image-main-3 {
+  width: 100%;
+}
+
+.main-bot-cont {
+  background-color: rgba(21, 21, 21, 1);
+  color: white;
+ display: flex;
+ flex-direction: column;
+ row-gap: 24px;
+ padding: 24px;
+}
+
+.header-main {
+  font-family: "Big Shoulders Display";
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: rgba(21, 21, 21, 1);
+}
+
+.main-p {
+  font-family: "Outfit";
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 28px;
+  color: rgba(68, 68, 68, 1);
+}
+
+.header-main-2 {
+  font-family: "Big Shoulders Display", sans-serif;
+  font-weight: 900;
+  font-size: 50px;
+  line-height: 45px;
+}
+
+.main-p-2 {
+  font-family: "Outfit";
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 28px;
+  letter-spacing: 0px;
+}
+
+.flex-spacer{
+    display: flex;
+    flex-direction: column;
+
+    row-gap: 25px;
+    
+}
+
+
+
+.flex-spacer-2{
+    display: flex;
+    flex-direction: column;
+   
+    row-gap: 1rem;
+   
+    
+}
+
+
+
+.footer{
+    background-color:rgba(21, 21, 21, 1);
+    display: flex;
+    flex-direction: column;
+    row-gap: 40px;
+    padding:50px 32px;
+
+
+
+    
+}
+
+.footer-p{
+font-family: 'Outfit';
+font-weight: 300;
+font-size: 16px;
+line-height: 26px;
+color:white;
+}
+
+
+.footer-social{
+    display: flex;
+    column-gap: 20px;
+}
+
+.grandma-pic-tab{
+  display: none;
+
+ }
+
+
+ .image-main-2-tab{
+  display: none;
+ }
+ 
+
+ .tab-wood{
+  display: none;
+ }
+
+ .chair-tab{
+display: none;
+  }
+
+@media screen and (min-width: 768px) {
+ .grandma-pic{
+  display:none;
+ }
+
+ .header{
+  display: flex;
+  flex-direction: row;
+  width: 768px;
+
+ }
+ .grandma-pic-tab{
+  /* display: block;
+  position: absolute;
+  height:  700px;
+z-index: -1; */
+   display: block;
+height:  700px;
+ }
+
+ .cont-for-marg{
+  position: relative;
+  /* left: 379px; */
+  row-gap: 48px;
+ }
+
+
+ .header-top{
+  width: 331px;
+  font-weight: 900;
+font-size: 70px;
+line-height: 65px;
+text-transform: uppercase;
+ }
+
+
+ .header-p{
+  width: 339px;
+  line-height: 28px;
+ }
+
+ .flex-spacer{
+ flex-direction: row-reverse;
+ column-gap: 65px;
+ }
+
+
+ .header-main{
+width: 223px;
+
+ }
+
+ .main-p{
+width:223px ;
+ }
+
+
+ .image-main-2{
+ 
+  display: none;
+ }
+
+ .image-main-2-tab{
+  display: block;
+  width: 398px;
+ height: 400px;
+ }
+ .cont-column{
+  display: flex;
+  flex-direction: column;
+  row-gap:24px ;
+margin-top: 36px;
+ }
+
+ .tab-layout{
+  display: flex;
+  column-gap:11px;
+ }
+   .chair-tab{
+   height: 720px;
+   display: block;
+   }
+
+   .image-main-3 {
+  
+    display: none;
+   }
+  
+    .tab-wood{
+    display:block;
+    height: 313px;
+    width: 280px;
+   }
+
+   .main-bot-cont{
+height: 396px;
+    width: 280px;
+   }
+   .flex-spacer-2{
+    row-gap: 11px;
+   }
+
+   .footer{
+    display: flex;
+    flex-direction: row;
+
+    column-gap: 133px;
+   }
+
+   .footer-p{
+    width:281px;
+
+   }
+   
+  .footer-gapper{
+    display: flex;
+    column-gap: 65px;
+  }
+.footer{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.absolute-cont{
+  position: absolute;
+  /* width: 0;
+  height: 0; */
+  top: 140px;
+  left: -65px;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+row-gap: 48px;
+  
+  }
+  .cont-for-marg{
+position:relative;
+  }
+
+.main{
+  margin: 0 auto;
+}
+
+}
+
+.gandama-deskt{
+  display: none;
+}
+
+
+.vudu-desk{
+  display:none;
+}
+
+
+
+.gallery-desk{
+  display: none;
+}
+.chair-desk{
+  display: none;
+}
+
+@media screen and (min-width: 1440px) {
+.grandma-pic-tab{
+  display: none;
+}
+
+.absolute-cont{
+  top:190px;
+  left: 163px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 246px ;
+  
+  /* width: 100%; */
+}
+
+
+
+
+
+.header{
+  width: 1440px;
+}
+.gandama-deskt{
+  display: block;
+  height: 800px;
+}
+
+.background{
+  background-color: black;
+
+
+  width: 990px;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.header-top{
+  color: black;
+
+font-family: 'Big Shoulders Display';
+/* min-width: 455px; */
+
+font-weight: 900;
+font-size: 96px;
+line-height: 88px;
+width: 514px;
+height: 174px;
+
+
+background: linear-gradient(90deg,rgba(255,255,255,1) 56%, rgba(0,0,0,1) 0% );
+color: transparent;
+-webkit-background-clip: text;
+background-clip: text;
+
+
+} 
+
+.desk-text{
+display: block;
+}
+
+.header-p{
+  font-family: 'Outfit';
+font-style: normal;
+font-weight: 300;
+font-size: 22px;
+line-height: 32px;
+color: #444444;
+
+}
+
+.desk-layout-head{
+display: flex;
+flex-direction: column;
+row-gap: 64px;
+  
+}
+
+
+.header-main{
+  font-weight: 900;
+font-size: 60px;
+line-height: 60px;
+}
+
+.main-p{
+  font-weight: 300;
+font-size: 22px;
+line-height: 32px;
+
+}
+
+.vudu-desk{
+  display:block;
+  width: 635px;
+  height: 400px;
+}
+
+.image-main-2-tab{
+  display: none;
+}
+
+
+
+
+.gallery-desk{
+  display: block;
+  width: 445px;
+  height: 313px;
+}
+
+
+.chair-tab{
+  display: none;
+}
+
+.tab-wood{
+  display: none;
+}
+
+.chair-desk{
+  display: block;
+  width: 635px;
+height: 720px;
+}
+
+
+.main-bot-cont{
+  width: 445px;
+}
+
+}
+
+
+.but-cont{
+  display: inline-flex;
+}
+.color{
+display: inline;
+
+}
+.but-cont:hover  .head-but{
+  background-color: #d5966c;;
+}
+
+
+.but-cont:hover .head-arrow{
+  background-color: black;
+}
+
+/* .head-but:hover {
+  cursor:pointer;
+  background-color: 
+
+
+}
+
+
+.head-arrow:hover + .head-but  {
+  cursor:pointer;
+  background-color: #d5966c;
+
+
+}
+
+
+.head-but:hover + .head-arrow{
+  cursor:pointer;
+  background-color: black;
+
+
+} */
+
+
+
+
+/* .head-but:hover{
+cursor: pointer;
+background-color: #d5966c;
+} */
